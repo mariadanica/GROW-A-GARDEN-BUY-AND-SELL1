@@ -1,313 +1,313 @@
-:root {
---facebook: #423feb;
---email: #d83706;
---white: #ffffff;
-}
-
-body {
-background-image: url('Background.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-html{
-scroll-behavior: smooth;
-}
-nav{
-position: sticky;
-top: 0;
-background: white;
-display: flex;
-justify-content: right;
-align-items: center;
-padding: 7px;
-box-shadow: 0 2px 8px rgba(252, 252, 252, 0.871);
-z-index: 1000;
-}
-
-header{
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-background: white;
-padding: 15px;
-display: flex;
-align-items: last baseline;
-justify-content: space-between;
-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.89);
-}
-
-.logo {
-font-size: 25px;
-color: limegreen;
-font-weight: bold;
-align-items: center;
-gap: 8px;
-text-decoration: none;
-}
-
-.logo-icon {
-width: 30px;
-height: 30px;
-object-fit: contain;
-}
-
-.nav-link{
-display: flex;
-gap: 20px;
-justify-content: space-between;
-}
-
-.nav-link a{
-color: rgba(20, 238, 20, 0.914);
-font-weight: bolder;
-font-size: medium;
-text-decoration: none;
-padding: 1px;
-border-radius: 15px;
-transition: 0.3s;
-}
-.nav-link a:hover{
-background-color: rgb(2, 46, 17);
-color: #444;
-}
-
-.container-wrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 50px;
-flex-wrap: wrap;
-padding: 40px;
-}
-
-.container {
-background: #11cf70d4;
-border-radius: 10px ;
-box-shadow: 0 5px 15px rgb(0, 0, 0, 0, 0.3);
-overflow: hidden;
-transition: transform 0.3s;
-}
-
-.container:hover{
-transform: scale(1.05);
-}
-
-section{
-height: 100vh;
-width: 100%;
-border: yellow;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-box-sizing: border-box;
-text-align: left;
-padding: 20px;
-border-radius: 10px;
-}
-
-.product-columns {
-display: flex;
-justify-content: space-between;
-gap: 60px;
-flex-wrap: wrap;
-}
-
-.product-columns .column {
-flex: 1;
-min-width: 300px;
-}
-
-.pop {
-opacity: 0;
-transform: scale(0.5);
-animation: slidePop 1s ease-out forwards;
-animation-delay: 0.5s;
-font-size: 18px;
-line-height: 1.2;
-font-family: Arial, sans-serif;
-
-background-color: rgba(220, 213, 213, 0.8);   
+:root {  
+--facebook: #423feb;  
+--email: #d83706;  
+--white: #ffffff;  
+}  
+  
+body {  
+background-image: url('Background.png');  
+background-repeat: no-repeat;  
+background-size: cover;  
+background-position: center;  
+background-attachment: fixed;  
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}  
+  
+html{  
+scroll-behavior: smooth;  
+}  
+nav{  
+position: sticky;  
+top: 0;  
+background: white;  
+display: flex;  
+justify-content: right;  
+align-items: center;  
+padding: 7px;  
+box-shadow: 0 2px 8px rgba(252, 252, 252, 0.871);  
+z-index: 1000;  
+}  
+  
+header{  
+position: fixed;  
+top: 0;  
+left: 0;  
+right: 0;  
+background: white;  
+padding: 15px;  
+display: flex;  
+align-items: last baseline;  
+justify-content: space-between;  
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.89);  
+}  
+  
+.logo {  
+font-size: 25px;  
+color: limegreen;  
+font-weight: bold;  
+align-items: center;  
+gap: 8px;  
+text-decoration: none;  
+}  
+  
+.logo-icon {  
+width: 30px;  
+height: 30px;  
+object-fit: contain;  
+}  
+  
+.nav-link{  
+display: flex;  
+gap: 20px;  
+justify-content: space-between;  
+}  
+  
+.nav-link a{  
+color: rgba(20, 238, 20, 0.914);  
+font-weight: bolder;  
+font-size: medium;  
+text-decoration: none;  
+padding: 1px;  
+border-radius: 15px;  
+transition: 0.3s;  
+}  
+.nav-link a:hover{  
+background-color: rgb(2, 46, 17);  
+color: #444;  
+}  
+  
+.container-wrapper {  
+display: flex;  
+justify-content: center;  
+align-items: center;  
+gap: 50px;  
+flex-wrap: wrap;  
+padding: 40px;  
+}  
+  
+.container {  
+background: #11cf70d4;  
+border-radius: 10px ;  
+box-shadow: 0 5px 15px rgb(0, 0, 0, 0, 0.3);  
+overflow: hidden;  
+transition: transform 0.3s;  
+}  
+  
+.container:hover{  
+transform: scale(1.05);  
+}  
+  
+section{  
+height: 100vh;  
+width: 100%;  
+border: yellow;  
+display: flex;  
+flex-direction: column;  
+justify-content: center;  
+align-items: center;  
+box-sizing: border-box;  
+text-align: left;  
 padding: 20px;  
-border-radius: 10px;   
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-}
-
-.social-media-buttons {
-display: flex;
-gap: 1.5rem;
-align-items: center;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.social-media-button {
-width: 3.25rem;
-height: 3.25rem;
-border-radius: 50%;
-border: 2px solid var(--white);
-background-color: transparent;
-display: grid;
-place-items: center;
-cursor: pointer;
-transition: all 0.3s ease;
-outline: none;
-padding: 0;
-}
-
-.social-media-button img {
-width: 1.6rem;
-height: 1.6rem;
-transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.social-media-button:hover img {
-transform: scale(1.15);
-filter: brightness(0) invert(1);
-}
-
-.social-media-button:hover {
-outline: 3px solid rgba(255,255,255,0.1);
-outline-offset: 3px;
-border-color: transparent;
-}
-
-.social-media-buttons .social-media-button:nth-child(1):hover {
-background-color: var(--facebook);
-}
-.social-media-buttons .social-media-button:nth-child(2):hover {
-background-color: var(--email);
-}
-
-@keyframes slidePop{
-from{
-opacity: 0;
-transform: scale(0.5);
-}
-to{
-opacity: 1;
-transform: scale(1);
-}
-}
-
-.rotating-image {
-animation: rotateImage 1s linear forwards;
-}
-
-@keyframes rotateImage {
-from {
-transform: rotate(0deg);
-}
-to {
-transform: rotate(360deg);
-}
-}
-
-@media (max-width: 768px) {
-
-body {
-background-attachment: scroll;
-background-size: cover;
-}
-
-header {
-flex-direction: column;
-align-items: center;
-text-align: center;
-padding: 10px;
-}
-
-.logo {
-font-size: 20px;
-display: flex;
-align-items: center;
-color: limegreen;
-}
-
-.logo-icon {
-width: 40px;
-height: 40px;
-margin: 5px;
-}
-
-nav {
-flex-direction: column;
-align-items: center;
-padding: 10px;
-background: white;
-box-shadow: none;
-}
-
-.nav-link {
-flex-wrap: wrap;
-justify-content: center;
-gap: 10px;
-}
-
-nav-link a {
-font-size: 0.9rem;
-color: limegreen;
-font-weight: 600;
-text-decoration: none;
-transition: 0.3s;
-}
-
-.nav-link a:hover {
-color: limegreen;
-}
-
-section {
-padding: 25px;
-text-align: center;
-}
-
-h2 {
-font-size: 1.2rem;
-}
-
-p {
-font-size: 0.9rem;
-line-height: 1.5;
-}
-
-.container-wrapper {
-flex-direction: column;
-gap: 20px;
-padding: 20px;
-}
-
-.container img {
-width: 100%;
-height: auto;
-}
-
-.product-columns {
-flex-direction: column;
-align-items: center;
-}
-
-.product-columns .column {
-min-width: 90%;
-}
-
-.social-media-button {
-width: 2.5rem;
-height: 2.5rem;
-}
-
-.social-media-button img {
-width: 1.2rem;
-height: 1.2rem;
-}
-
-footer p {
-font-size: 0.8rem;
-text-align: center;
-}
+border-radius: 10px;  
+}  
+  
+.product-columns {  
+display: flex;  
+justify-content: space-between;  
+gap: 60px;  
+flex-wrap: wrap;  
+}  
+  
+.product-columns .column {  
+flex: 1;  
+min-width: 300px;  
+}  
+  
+.pop {  
+opacity: 0;  
+transform: scale(0.5);  
+animation: slidePop 1s ease-out forwards;  
+animation-delay: 0.5s;  
+font-size: 18px;  
+line-height: 1.2;  
+font-family: Arial, sans-serif;  
+  
+background-color: rgba(220, 213, 213, 0.8);     
+padding: 20px;    
+border-radius: 10px;     
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  
+}  
+  
+.social-media-buttons {  
+display: flex;  
+gap: 1.5rem;  
+align-items: center;  
+justify-content: center;  
+flex-wrap: wrap;  
+}  
+  
+.social-media-button {  
+width: 3.25rem;  
+height: 3.25rem;  
+border-radius: 50%;  
+border: 2px solid var(--white);  
+background-color: transparent;  
+display: grid;  
+place-items: center;  
+cursor: pointer;  
+transition: all 0.3s ease;  
+outline: none;  
+padding: 0;  
+}  
+  
+.social-media-button img {  
+width: 1.6rem;  
+height: 1.6rem;  
+transition: transform 0.3s ease, filter 0.3s ease;  
+}  
+  
+.social-media-button:hover img {  
+transform: scale(1.15);  
+filter: brightness(0) invert(1);  
+}  
+  
+.social-media-button:hover {  
+outline: 3px solid rgba(255,255,255,0.1);  
+outline-offset: 3px;  
+border-color: transparent;  
+}  
+  
+.social-media-buttons .social-media-button:nth-child(1):hover {  
+background-color: var(--facebook);  
+}  
+.social-media-buttons .social-media-button:nth-child(2):hover {  
+background-color: var(--email);  
+}  
+  
+@keyframes slidePop{  
+from{  
+opacity: 0;  
+transform: scale(0.5);  
+}  
+to{  
+opacity: 1;  
+transform: scale(1);  
+}  
+}  
+  
+.rotating-image {  
+animation: rotateImage 1s linear forwards;  
+}  
+  
+@keyframes rotateImage {  
+from {  
+transform: rotate(0deg);  
+}  
+to {  
+transform: rotate(360deg);  
+}  
+}  
+  
+@media (max-width: 768px) {  
+  
+body {  
+background-attachment: scroll;  
+background-size: cover;  
+}  
+  
+header {  
+flex-direction: column;  
+align-items: center;  
+text-align: center;  
+padding: 10px;  
+}  
+  
+.logo {  
+font-size: 20px;  
+display: flex;  
+align-items: center;  
+color: limegreen;  
+}  
+  
+.logo-icon {  
+width: 40px;  
+height: 40px;  
+margin: 5px;  
+}  
+  
+nav {  
+flex-direction: column;  
+align-items: center;  
+padding: 10px;  
+background: white;  
+box-shadow: none;  
+}  
+  
+.nav-link {  
+flex-wrap: wrap;  
+justify-content: center;  
+gap: 10px;  
+}  
+  
+nav-link a {  
+font-size: 0.9rem;  
+color: limegreen;  
+font-weight: 600;  
+text-decoration: none;  
+transition: 0.3s;  
+}  
+  
+.nav-link a:hover {  
+color: limegreen;  
+}  
+  
+section {  
+padding: 25px;  
+text-align: center;  
+}  
+  
+h2 {  
+font-size: 1.2rem;  
+}  
+  
+p {  
+font-size: 0.9rem;  
+line-height: 1.5;  
+}  
+  
+.container-wrapper {  
+flex-direction: column;  
+gap: 20px;  
+padding: 20px;  
+}  
+  
+.container img {  
+width: 100%;  
+height: auto;  
+}  
+  
+.product-columns {  
+flex-direction: column;  
+align-items: center;  
+}  
+  
+.product-columns .column {  
+min-width: 90%;  
+}  
+  
+.social-media-button {  
+width: 2.5rem;  
+height: 2.5rem;  
+}  
+  
+.social-media-button img {  
+width: 1.2rem;  
+height: 1.2rem;  
+}  
+  
+footer p {  
+font-size: 0.8rem;  
+text-align: center;  
+}  
 }
