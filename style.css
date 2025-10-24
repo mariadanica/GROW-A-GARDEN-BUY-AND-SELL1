@@ -75,10 +75,6 @@ transition: 0.3s;
 background-color: rgb(2, 46, 17);  
 color: #444;  
 }  
-
-#home{
-  padding-top: 70px;
-}
   
 .container-wrapper {  
 display: flex;  
