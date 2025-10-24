@@ -16,6 +16,9 @@
       <img src="robu.jffi" alt="Logo icon" class="logo-icon">  
       <span>BUY AND SELL</span>  
     </a>  
+
+ <div class="menu-icon" id="menu-icon">&#9776;</div>
+
    <nav>  
             <div class="nav-link">  
                 <a href="#home">Home</a>  
@@ -204,6 +207,14 @@ navLinks.forEach(link => {
         }  
     });  
 });  
+
+const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.getElementById('nav-links');
+
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+      menuIcon.textContent = navLinks.classList.contains('show') ? '✖' : '☰';
+    });
 </script>  
   
 </body>  
