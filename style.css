@@ -97,9 +97,10 @@ transition: transform 0.3s;
 transform: scale(1.05);  
 }  
   
-section{
+section{  
 height: 100vh;  
 width: 100%;  
+border: yellow;  
 display: flex;  
 flex-direction: column;  
 justify-content: center;  
