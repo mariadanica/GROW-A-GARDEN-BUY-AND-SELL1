@@ -209,7 +209,7 @@ transform: rotate(360deg);
 }  
 }  
   
-@media (max-width: 768px;) {  
+@media (max-width: 768px) {  
   
 body {  
 background-attachment: scroll;  
@@ -268,7 +268,7 @@ text-align: center;
 }  
   
 h2 {  
-font-size: 1.4rem; 
+font-size: 1.2rem;  
 }  
   
 p {  
