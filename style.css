@@ -11,34 +11,34 @@ background-size: cover;
 background-position: center;  
 background-attachment: fixed;  
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+margin: 0;
+padding-top: 80px;
 }  
   
 html{  
 scroll-behavior: smooth;  
+sroll-padding-top: 15px;
 }  
-nav{  
-position: sticky;  
-top: 0;  
-background: white;  
-display: flex;  
-justify-content: right;  
-align-items: center;  
-padding: 7px;  
-box-shadow: 0 2px 8px rgba(252, 252, 252, 0.871);  
-z-index: 1000;  
-}  
-  
+
 header{  
 position: fixed;  
 top: 0;  
 left: 0;  
-right: 0;  
+width: 100%
 background: white;  
 padding: 15px;  
 display: flex;  
-align-items: last baseline;  
+align-items: center;  
 justify-content: space-between;  
-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.89);  
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.89);
+z-index: 1000;
+}  
+
+nav{  
+display: flex;
+justify-content: right;
+align-items: center;
+gap: 15px;
 }  
   
 .logo {  
