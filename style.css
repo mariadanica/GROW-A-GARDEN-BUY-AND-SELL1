@@ -93,7 +93,6 @@ align-items: center;
 gap: 50px;
 flex-wrap: wrap;
 padding: 40px;
-z-index: 1000;
 }
 
 .container:hover{
