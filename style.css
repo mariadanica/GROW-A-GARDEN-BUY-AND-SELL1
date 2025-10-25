@@ -267,11 +267,13 @@ transition: 0.3s;
 .nav-link a:hover {
 color: limegreen;
 }
-
-section {
-min-height: auto;
-padding: 25px;
-text-align: center;
+.pop{
+font-size: 0.9rem
+line-height: 1.1;
+width: 90%;
+margin: 15px auto;
+padding: 15px;
+backgound-color: background-color: rgba(220, 213, 213, 0.8);
 }
 
 h2 {
