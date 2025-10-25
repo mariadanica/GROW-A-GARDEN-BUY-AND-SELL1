@@ -279,7 +279,25 @@ p {
 font-size: 0.9rem;
 line-height: 1.5;
 }
+  
+.intro, .content, .text-box {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+  }
 
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    z-index: 0;
+  }
 .container-wrapper {
 flex-direction: column;
 gap: 20px;
