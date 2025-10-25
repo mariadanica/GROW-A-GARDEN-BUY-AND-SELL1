@@ -83,7 +83,7 @@ background: #11cf70d4;
 border-radius: 10px ;
 box-shadow: 0 5px 15px rgb(0, 0, 0, 0, 0.3);
 overflow: hidden;
-transition: transform 0.3s;
+transition: transform 1.05s;
 z-index:1000;
 }
 
@@ -94,14 +94,6 @@ align-items: center;
 gap: 50px;
 flex-wrap: wrap;
 padding: 40px;
-}
-
-.container {
-background: #11cf70d4;
-border-radius: 10px ;
-box-shadow: 0 5px 15px rgb(0, 0, 0, 0, 0.3);
-overflow: hidden;
-transition: transform 0.3s;
 }
 
 .container:hover{
