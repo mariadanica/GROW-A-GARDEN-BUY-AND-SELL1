@@ -39,6 +39,7 @@ display: flex;
 align-items: last baseline;
 justify-content: space-between;
 box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.89);
+z-index: 1000;
 }
 
 .logo {
@@ -74,6 +75,15 @@ transition: 0.3s;
 .nav-link a:hover{
 background-color: rgb(2, 46, 17);
 color: #444;
+}
+
+.container {
+display: relative;
+background: #11cf70d4;
+border-radius: 10px ;
+box-shadow: 0 5px 15px rgb(0, 0, 0, 0, 0.3);
+overflow: hidden;
+transition: transform 0.3s;
 }
 
 .container-wrapper {
