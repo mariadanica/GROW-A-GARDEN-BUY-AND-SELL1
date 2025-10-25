@@ -102,12 +102,11 @@ transform: scale(1.05);
 }
 
 section{
-height: 100vh;
+min-height: 100vh;
 width: 100%;
-border: yellow;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 box-sizing: border-box;
 text-align: left;
@@ -133,13 +132,16 @@ transform: scale(0.5);
 animation: slidePop 1s ease-out forwards;
 animation-delay: 0.5s;
 font-size: 18px;
-line-height: 1.2;
+line-height: 1.1;
 font-family: Arial, sans-serif;
 
 background-color: rgba(220, 213, 213, 0.8);
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+color: #111;
+max-width: 800px
+  margin: 10px auto;
 
 }
 
@@ -267,9 +269,17 @@ color: limegreen;
 }
 
 section {
+min-height: auto;
 padding: 25px;
 text-align: center;
 }
+  .pop{
+    font-size: 0.9rem
+      line-height: 1.4;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    backgound-color: background-color: rgba(220, 213, 213, 0.8);
 
 h2 {
 font-size: 1.2rem;
@@ -280,24 +290,6 @@ font-size: 0.9rem;
 line-height: 1.5;
 }
   
-.intro, .content, .text-box {
-    width: 90%;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    position: relative;
-    z-index: 1;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    position: relative;
-    z-index: 0;
-  }
 .container-wrapper {
 flex-direction: column;
 gap: 20px;
