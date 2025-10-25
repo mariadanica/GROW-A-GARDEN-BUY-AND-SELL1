@@ -76,6 +76,14 @@ background-color: rgb(2, 46, 17);
 color: #444;
 }
 
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: limegreen;
+  z-index: 2000;
+}
+
 .container-wrapper {
 display: flex;
 justify-content: center;
@@ -214,6 +222,10 @@ transform: rotate(360deg);
 body {
 background-attachment: scroll;
 background-size: cover;
+}
+
+.menu-icon {
+    display: block;
 }
 
 header {
