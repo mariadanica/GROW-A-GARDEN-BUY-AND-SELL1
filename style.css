@@ -15,9 +15,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 html{
 scroll-behavior: smooth;
-z-index: 1;
 }
-
 nav{
 position: sticky;
 top: 0;
@@ -41,7 +39,6 @@ display: flex;
 align-items: last baseline;
 justify-content: space-between;
 box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.89);
-z-index: 1000;
 }
 
 .logo {
@@ -80,12 +77,13 @@ color: #444;
 }
 
 .container {
-display: relative;
+display: relative
 background: #11cf70d4;
 border-radius: 10px ;
 box-shadow: 0 5px 15px rgb(0, 0, 0, 0, 0.3);
 overflow: hidden;
-transition: transform 1.05s;
+transition: transform 0.3s;
+z-index: 1000;
 }
 
 .container-wrapper {
@@ -102,11 +100,12 @@ transform: scale(1.05);
 }
 
 section{
-min-height: 100vh;
+height: 100vh;
 width: 100%;
+border: yellow;
 display: flex;
 flex-direction: column;
-justify-content: flex-start;
+justify-content: center;
 align-items: center;
 box-sizing: border-box;
 text-align: left;
@@ -132,13 +131,14 @@ transform: scale(0.5);
 animation: slidePop 1s ease-out forwards;
 animation-delay: 0.5s;
 font-size: 18px;
-line-height: 1.1;
+line-height: 1.2;
 font-family: Arial, sans-serif;
 
 background-color: rgba(220, 213, 213, 0.8);
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .social-media-buttons {
@@ -264,6 +264,11 @@ transition: 0.3s;
 color: limegreen;
 }
 
+section {
+padding: 25px;
+text-align: center;
+}
+
 h2 {
 font-size: 1.2rem;
 }
@@ -272,7 +277,7 @@ p {
 font-size: 0.9rem;
 line-height: 1.5;
 }
-  
+
 .container-wrapper {
 flex-direction: column;
 gap: 20px;
