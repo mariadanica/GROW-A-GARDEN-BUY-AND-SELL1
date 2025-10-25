@@ -273,14 +273,6 @@ min-height: auto;
 padding: 25px;
 text-align: center;
 }
-.pop{
-    font-size: 0.9rem
-      line-height: 1.4;
-    width: 90%;
-    margin: 15px auto;
-    padding: 15px;
-    backgound-color: background-color: rgba(220, 213, 213, 0.8);
-}
 
 h2 {
 font-size: 1.2rem;
