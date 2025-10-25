@@ -139,10 +139,6 @@ background-color: rgba(220, 213, 213, 0.8);
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-color: #111;
-max-width: 800px
-  margin: 10px auto;
-
 }
 
 .social-media-buttons {
@@ -266,14 +262,6 @@ transition: 0.3s;
 
 .nav-link a:hover {
 color: limegreen;
-}
-.pop{
-font-size: 0.9rem
-line-height: 1.1;
-width: 90%;
-margin: 15px auto;
-padding: 15px;
-backgound-color: background-color: rgba(220, 213, 213, 0.8);
 }
 
 h2 {
